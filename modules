@@ -1,0 +1,45 @@
+ithalat os
+alt işlemi içe aktar
+ithalat platformu
+userbot import SUDO'dan
+
+def _start_instalation ():
+    install_with = Yok
+    package_managers = ["pacman", "apt-get", "yum", "demlemek", "yaourt", "dnf", "homebrew", "eopkg", "snap"]
+    str (platform.system ()) içindeki "linux" ise. alt ():
+            package_managers'daki yönetici için:
+                Deneyin:
+                    subprocess.check_call (f "hangi {manager}", shell = True, stderr = subprocess.STDOUT)
+                    install_package (yönetici)
+                    dönüş
+                dışında:
+                    devam et
+
+
+
+def install_package (package_manager):
+    paketleri = []
+    to_install = []
+    dosya olarak open ("Aptfile") ile:
+        dosyadaki satır için:
+            packages.append (hat)
+
+    paketlerdeki paket için:
+        Deneyin:
+            subprocess.check_call (f "hangi {package}", shell = True, stderr = subprocess.STDOUT)
+        dışında:
+                to_install.append (paket)
+
+    eğer kurulursa:
+        SUDO ise:
+            subprocess.Popen (f "echo {str (SUDO)} | sudo -S {str (package_manager)}" +
+            f "install -y {'' .join (to_install)}", kabuk = Doğru)
+        Başka:
+            altprocess.Popen (f "{str (package_manager)} install -y {'' .join (to_install)}",
+            kabuk) doğru =
+
+Deneyin:
+    os.environ ['PATH'] içinde 'heroku' değilse:
+        _start_instalation ()
+dışında:
+    _start_instalation ()
