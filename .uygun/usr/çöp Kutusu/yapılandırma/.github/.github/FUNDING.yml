@@ -1,8 +1,0 @@
-# Bunlar desteklenen fonlama modeli platformlarıdır
-
-github: [NaytSeyd] # En fazla 4 GitHub Sponsoru etkin kullanıcı adıyla değiştirin örn. [kullanıcı1, kullanıcı2]
-patreon: # Tek bir Patreon kullanıcı adıyla değiştir
-open_collective: # Tek bir Open Collective kullanıcı adıyla değiştir
-ko_fi: # Tek bir Ko-fi kullanıcı adıyla değiştirin
-tidelift: # Tek bir Tidelift platform adı / paket adı ile değiştirin, örn. npm / babel
-custom: # Tek bir özel sponsorluk URL'si ile değiştirin
